@@ -3,8 +3,8 @@ name: Daily AI Tools
 on:
   workflow_dispatch:
 
-  schedule:
-    - cron: "0 13 * * 1-5"
+#  schedule:
+ #   - cron: "0 13 * * 1-5"
 
 jobs:
   publish-ai-tool:
